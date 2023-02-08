@@ -1,0 +1,103 @@
+# uname --settings update to files
+
+
+git set config 
+
+
+pashe one 
+
+
+git config --global user.email "your@email.com"
+
+git config --global user.name "name"
+
+
+-**-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-****
+
+
+config repository in git 
+
+
+
+cd ~/myproject
+
+echo "my project" >> README.md
+
+git init 
+
+git add README.md
+
+git branch -M main (or master)
+
+git checkout -- .
+
+
+-- optional 
+
+git log 
+
+
+---- 
+
+
+git commit  -m "firts commit"
+
+
+git add origin <repolink|url>
+
+
+git push -u origin main (or master)
+
+
+--------------------------------------------------------------------------
+
+					finish config up repository add files in github....
+
+--------------------------------------------------------------------------
+
+
+how to generate ssh-keygen
+
+alternative error not upploading  files
+
+---------------------
+      phase twu 
+---------------------
+
+-------------------------------------------------
+
+
+ssh-keygen -t  rsa -b  4096 -C "acx1ss@protonmail.com"
+---> is gen namefile assig save 
+
+eval $(ssh-agent -s) 
+
+--> $ pid
+
+cat  filegen.pub
+
+copy text  out in paste in github ssh/genkey
+
+
+---------------------------------------------------------------------------------
+
+
+is error login in git hub is configure 
+
+
+key generate in developer option in git
+
+
+settings > developper option 
+
+generate new token auth ...
+
+
+
+
+
+
+
+
+
+
